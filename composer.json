@@ -1,0 +1,25 @@
+{
+    "name": "nio/zeero-framework",
+    "description": "zeero mini framework for fast development",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Bumba",
+            "email": "carlosbumbadev16@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zeero\\": "src/"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.3",
+        "monolog/monolog": "^2.2",
+        "symfony/http-foundation": "^5.2"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0.0"
+    }
+}
